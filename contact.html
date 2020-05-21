@@ -53,40 +53,18 @@
 
 <body>
 
-	<nav id="colorlib-main-nav" role="navigation">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
-		<div class="js-fullheight colorlib-table">
-			<div class="colorlib-table-cell js-fullheight">
+	<nav>
+		<div>
+			<div class="colorlib-table">
 				<div class="row">
-					<div class="col-md-12">
-						<ul>
+					<div class="col-md-12 navbar">
+						<ul class="navigation">
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="services.html">Skills</a></li>
 							<li><a href="work.html">Work</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="head-title">Works</h2>
-						<a href="images/work-1.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-1.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-						<a href="images/work-2.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-2.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-						<a href="images/work-3.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-3.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-						<a href="images/work-4.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-4.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
 					</div>
 				</div>
 			</div>
@@ -145,27 +123,30 @@
 							</div>
 							<div class="col-md-7 col-md-push-1 animate-box">
 								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<textarea name="" class="form-control" id="" cols="30" rows="7"
-												placeholder="Message"></textarea>
+									<form action="https://formspree.io/xknqokpd" method="post">
+										<div class="col-md-12">
+											<div class="form-group">
+												<textarea class="form-control" id="" cols="30" rows="7"
+													placeholder="Message" name="message"></textarea>
+											</div>
 										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Name" name="name">
+											</div>
 										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Email"
+													name="_replyto">
+											</div>
 										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<input type="submit" value="Send Message" class="btn btn-primary">
+										<div class="col-md-12">
+											<div class="form-group">
+												<input type="submit" value="Send Message" class="btn btn-primary">
+											</div>
 										</div>
-									</div>
+									</form>
 								</div>
 							</div>
 						</div>
