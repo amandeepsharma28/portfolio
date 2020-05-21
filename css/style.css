@@ -77,7 +77,7 @@ nav {
   }
 }
 
-nav+#colorlib-page {
+nav+div+#colorlib-page {
   padding-top: 80px;
 }
 
