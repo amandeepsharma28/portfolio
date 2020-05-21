@@ -58,7 +58,7 @@ nav {
 }
 
 .logo {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .active-menu {
@@ -78,7 +78,7 @@ nav {
 }
 
 nav+#colorlib-page {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 body.menu-show {
