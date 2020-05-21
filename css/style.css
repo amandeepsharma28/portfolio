@@ -76,6 +76,17 @@ nav {
     visibility: visible;
   }
 }
+@media screen and (max-width: 480px) {
+  nav {
+    visibility: hidden;
+  }
+  .logo {
+    margin-top: 0px;
+  }
+  .burger {
+    visibility: visible;
+  }
+}
 
 nav+div+#colorlib-page {
   padding-top: 60px;
