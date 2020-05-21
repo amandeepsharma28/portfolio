@@ -398,6 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+
 @media screen and (max-width: 768px) {
   #colorlib-main-nav .gallery {
     width: 25%;
@@ -979,6 +980,7 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
   display: table;
   text-align: center;
   text-decoration: none;
+  z-index: 0;
 }
 
 .work-entry .work-img .display-t {
