@@ -58,7 +58,7 @@ nav {
 }
 
 .logo {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .active-menu {
@@ -78,7 +78,7 @@ nav {
 }
 
 nav+#colorlib-page {
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 body.menu-show {
@@ -116,9 +116,6 @@ a:hover {
   background-color: #111;
 }
 
-a:focus, a:active {
-  background-color: #4CAF50;
-}
 
 p, span {
   margin-bottom: 1.5em;
